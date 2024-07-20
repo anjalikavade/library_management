@@ -1,0 +1,53 @@
+/* GetBooks.css */
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.books-table th,
+.books-table td {
+  border: 1px solid #2c0909;
+  padding: 8px;
+}
+
+.books-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.books-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.books-table tr:hover {
+  background-color: #ddd;
+}
+
+.books-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #b0bdb0;
+  color: white;
+}
+
+.books-table button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #2e19cd;
+  color: white;
+  cursor: pointer;
+}
+
+.books-table button:hover {
+  background-color: #57261f;
+}
+
+.books-table button.delete {
+  background-color: #f44336;
+}
+
+.books-table button.delete:hover {
+  background-color: #e53935;
+}

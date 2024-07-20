@@ -1,0 +1,62 @@
+/* src/components/Dashboard.css */
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard-heading {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.dashboard-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.dashboard-box {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-box h2 {
+  margin-top: 0;
+}
+
+.dashboard-box p {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.dashboard-box a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.dashboard-box a:hover {
+  text-decoration: underline;
+}
+.logout-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  background-color: #333; /* Darker shade of black for hover effect */
+}
